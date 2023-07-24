@@ -1,0 +1,5 @@
+# Vision-Assistive-Caption-Bot
+The project goal is to create a caption bot based on the model CNN-LSTM neural networks which detects the objects in the images automatically and generate meaningful descriptions for the images. CNN helps detect the objects in the image and LSTM is to caption the images. 
+
+
+The main motive of this project is analyzing, exploring and creating the sentence generation using different pre-trained CNN models as an encoder and a type of Recurrent Neural Network (RNN) Long Short-Term Memory (LSTM) as a decoder. The project considers two major areas one is Artificial Intelligence (AI) computer vision and natural language processing (NLP). This project implements the vision assistive caption bot using Merge Model Architecture with the help of ranking based caption retrivel and evaluate the accuracy of the model using Bilingual Evaluation Understudy (BLEU) score and convert the text to audio using Google Text to Speech (GTTS), deployed the project as REST-API in a web server using Flask and test the model with images semantically related to the images used for training the model.
